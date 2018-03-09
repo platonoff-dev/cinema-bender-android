@@ -1,15 +1,14 @@
 package com.example.tonik.cinema
-import android.annotation.SuppressLint
 import android.content.Context
-import android.content.Intent
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 import android.net.ConnectivityManager
-import android.widget.*
-import com.example.tonik.cinemabender.FilmActivity
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
+import com.example.tonik.cinemabender.FilmAdapter
+import com.example.tonik.cinemabender.MyOnClickLIstener
 import com.example.tonik.cinemabender.ParseRss
 import com.example.tonik.cinemabender.R
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,21 +20,13 @@ class MainActivity : AppCompatActivity() {
         return netInfo != null && netInfo.isConnectedOrConnecting
     }
 
-    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val listOfFilms = findViewById<ListView>(R.id.listView)
         var data = ParseRss().execute().get()
-        var adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, data.names)
-        listOfFilms.adapter = adapter
-        listOfFilms.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, i, l ->
-            var intent = Intent(this, FilmActivity::class.java)
-            var element = adapter.getItem(i)
-            intent.putExtra("Element", element)
-            startActivity(intent)
-            onStop()
-        }
+        var listOfFilms = findViewById<RecyclerView>(R.id.listOfFilms)
+        listOfFilms.layoutManager = LinearLayoutManager(this)
+        listOfFilms.adapter = FilmAdapter(data, this)
     }
 }
 
