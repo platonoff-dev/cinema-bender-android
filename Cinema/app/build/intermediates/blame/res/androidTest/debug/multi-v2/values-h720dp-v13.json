@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\programing\\AndroidProjects\\CinemaAndroid\\Cinema\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tonik\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\47b251239bedec5e4120687788167219\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "66",
-                        "endOffsets": "117"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\programing\\AndroidProjects\\Cinema\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\tonik\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\47b251239bedec5e4120687788167219\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1b087789c9a869e455e6ec1a9682dee9/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

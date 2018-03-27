@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\programing\\AndroidProjects\\Cinema\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tonik\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\47b251239bedec5e4120687788167219\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,126,197,267,337,405",
-                        "endColumns": "70,70,69,69,67,67",
-                        "endOffsets": "121,192,262,332,400,468"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\programing\\AndroidProjects\\CinemaAndroid\\Cinema\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\tonik\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\47b251239bedec5e4120687788167219\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

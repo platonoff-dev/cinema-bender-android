@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "650928014717",
+    "firebase_url": "https://cinema-6a3d1.firebaseio.com",
+    "project_id": "cinema-6a3d1",
+    "storage_bucket": "cinema-6a3d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650928014717:android:483dcb3298ab3208",
+        "android_client_info": {
+          "package_name": "com.example.tonik.cinemabender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650928014717-ojg5he9afhcqatl29ev9u7nvv61rg8e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tonik.cinemabender",
+            "certificate_hash": "447873b703fc637f4d5cc56ef9b8d1897333309b"
+          }
+        },
+        {
+          "client_id": "650928014717-tsqteurvjf35nn1j5sb812154j1auri2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tonik.cinemabender",
+            "certificate_hash": "cad54119300e39f6f22ca145598e012ae500c1af"
+          }
+        },
+        {
+          "client_id": "650928014717-6umhqbecf2up10aig4bvmbbu5mck92t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsQFv2rRd4V-z5SubmaB_aDM7Mxmn_RJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650928014717-6umhqbecf2up10aig4bvmbbu5mck92t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

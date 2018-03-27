@@ -24,3 +24,25 @@ class MyOnClickLIstener(var position: Int, var data: List<Film>, var context: Co
     }
 
 }
+
+class OnLikeClickListener(var position: Int, var data: List<Film>): View.OnClickListener{
+    override fun onClick(view: View?) {
+        var fbw = FirebaseWorking()
+        view!!.animate()
+                .scaleX(5f)
+                .scaleY(5f)
+                .alpha(0f)
+                .setDuration(200)
+                .withEndAction {
+                    view.animate()
+                            .scaleX(1f)
+                            .scaleY(1f)
+                            .alpha(1f)
+                            .setDuration(0)
+                            .start()
+                }
+                .start()
+        fbw.addLike(data[position].name)
+    }
+
+}

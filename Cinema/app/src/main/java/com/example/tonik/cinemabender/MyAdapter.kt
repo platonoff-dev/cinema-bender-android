@@ -16,6 +16,7 @@ class FilmAdapter(var data: List<Film>, var context: Context): RecyclerView.Adap
         var filmPoster = itemView!!.findViewById<ImageView>(R.id.filmPoster)
         var filmName  = itemView!!.findViewById<TextView>(R.id.nameView)
         var filmDate  = itemView!!.findViewById<TextView>(R.id.dateView)
+        var likeView = itemView!!.findViewById<ImageView>(R.id.likeImage)
     }
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ViewHolder{
         var view = LayoutInflater.from(context).inflate(R.layout.film_item_layout, parent, false)
@@ -32,8 +33,11 @@ class FilmAdapter(var data: List<Film>, var context: Context): RecyclerView.Adap
                 .resize(90, 140)
                 .error(R.color.error_color_material)
                 .into(holder.filmPoster)
+        var fbase = FirebaseWorking()
+
         holder.view!!.setOnClickListener(MyOnClickLIstener(position, data, context))
         holder.filmName.text = data[position].name
         holder.filmDate.text = data[position].seance
+        holder.likeView.setOnClickListener(OnLikeClickListener(position, data))
     }
 }
