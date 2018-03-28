@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/res/values-v23/values-v23.xml",

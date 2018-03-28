@@ -45,13 +45,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="8dp"
         android:padding="8dp"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filmName" />
+        app:layout_constraintTop_toBottomOf="@+id/filmSeance" />
 
     <TextView
         android:id="@+id/filmHall"
@@ -72,13 +72,29 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="216dp"
         android:padding="8dp"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filmHall" />
+        app:layout_constraintTop_toBottomOf="@+id/filmName" />
+
+    <ImageButton
+        android:id="@+id/commentFilmButton"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/filmSeance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/filmPoster"
+        app:layout_constraintTop_toBottomOf="@+id/filmName"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/addcomment" />
+
 </android.support.constraint.ConstraintLayout>
 
 </ScrollView>

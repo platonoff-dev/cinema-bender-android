@@ -2,36 +2,62 @@ package com.example.tonik.cinemabender
 
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.OnSuccessListener
-import com.google.firebase.firestore.DocumentSnapshot
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.QuerySnapshot
+import com.google.firebase.firestore.*
+import com.google.firebase.firestore.EventListener
 import java.util.*
 import kotlin.collections.HashMap
 
 class FirebaseWorking{
-    var base = FirebaseFirestore.getInstance().collection("films")
+    var fBase = FirebaseFirestore.getInstance().collection("films")
     fun addLike(name: String){
-        base.document(name).get().addOnSuccessListener(OnSuccessListener {
+        fBase.document(name).get().addOnSuccessListener(OnSuccessListener {
             if (it.exists()){
-                var a = HashMap<String, String>()
-                a.put("likes", (it.getString("likes").toInt() + 1).toString())
-                base.document(name).set(a as Map<String, String>)
+                var document = HashMap<String, String>()
+                document.put("likes", (it.getString("likes").toInt()+1).toString())
+                document.put("comments", it.getString("comments"))
+                fBase.document(name).set(document as Map<String, String>)
+            }
+            else {
+                var document = HashMap<String, String>()
+                document.put("likes", "0")
+                document.put("comments", "")
+                fBase.document(name).set(document as Map<String, String>)
+                addLike(name)
             }
         })
     }
-    fun getNumberOfLikes(name: String){
 
+    fun addComent(name: String, comment: String){
+        fBase.document(name).get().addOnSuccessListener(OnSuccessListener {
+            if (it.exists()){
+                var existComents = it.getString("comments")
+                existComents = "$existComents$comment~"
+                var document = HashMap<String, String>()
+                document.put("comments", existComents)
+                document.put("likes", it.getString("likes"))
+                fBase.document(name).set(document as Map<String, String>)
+            }
+            else {
+                var document = HashMap<String, String>()
+                document.put("likes", "0")
+                document.put("coments", "")
+                fBase.document(name).set(document as Map<String, String>)
+                addComent(name, comment)
+            }
+        })
     }
-    fun addComent(name: String){
+    fun getComents(name: String): String{
+        var comments: String? = ""
+        fBase.document(name).get().addOnSuccessListener(OnSuccessListener {
+            if (it.exists()) {
+                comments = it.getString("comments")
+            }
+        })
+        if (comments == null){
+            return ""
+        }else{
+            return comments!!.toString()
+        }
 
-    }
-    fun getComents(name: String){
-
-    }
-    fun addFilm(name: String){
-        var film = HashMap<String, String>()
-        film.put("coments", "")
-        film.put("likes", Random().nextInt().toString())
-        base.document(name).set(film as Map<String, Any>)
     }
 }

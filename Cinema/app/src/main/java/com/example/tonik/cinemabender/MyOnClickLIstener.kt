@@ -4,10 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.content.ContextCompat.startActivity
-import android.support.v7.widget.RecyclerView
-import android.view.MotionEvent
-import android.view.GestureDetector
 import android.view.View
+import com.example.tonik.cinemabender.Activities.CommentActivity
 
 
 class MyOnClickLIstener(var position: Int, var data: List<Film>, var context: Context): View.OnClickListener{
@@ -35,14 +33,14 @@ class OnLikeClickListener(var position: Int, var data: List<Film>): View.OnClick
                 .setDuration(200)
                 .withEndAction {
                     view.animate()
-                            .scaleX(1f)
-                            .scaleY(1f)
-                            .alpha(1f)
+                            .scaleX(0f)
+                            .scaleY(0f)
+                            .alpha(0f)
                             .setDuration(0)
                             .start()
                 }
                 .start()
         fbw.addLike(data[position].name)
     }
-
 }
+

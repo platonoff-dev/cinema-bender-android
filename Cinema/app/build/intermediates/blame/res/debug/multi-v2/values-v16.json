@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/res/values-v16/values-v16.xml",

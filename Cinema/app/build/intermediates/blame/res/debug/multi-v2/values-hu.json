@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/res/values-hu/values.xml",

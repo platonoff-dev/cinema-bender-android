@@ -1,4 +1,4 @@
-#Tue Mar 27 22:14:56 EEST 2018
-base.0=/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/transforms/dexMerger/debug/9
+#Wed Mar 28 21:07:08 EEST 2018
+base.0=/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

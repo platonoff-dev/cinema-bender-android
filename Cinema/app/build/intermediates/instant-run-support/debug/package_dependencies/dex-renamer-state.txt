@@ -1,4 +1,0 @@
-#Tue Mar 27 19:22:55 EEST 2018
-base.0=/home/tonik/programing/AndroidProjects/CinemaBender/Cinema/app/build/intermediates/transforms/dexMerger/debug/11
-path.0=classes.dex
-renamed.0=classes.dex

@@ -19,8 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FilmActivity"></activity>
-        <activity android:name=".Activities.OfflineActivity"></activity>
+        <activity android:name=".FilmActivity" />
+        <activity android:name=".Activities.OfflineActivity" />
+        <activity android:name=".Activities.CommentActivity"></activity>
     </application>
 
 </manifest>
