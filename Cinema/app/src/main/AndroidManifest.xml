@@ -21,7 +21,13 @@
         </activity>
         <activity android:name=".FilmActivity" />
         <activity android:name=".Activities.OfflineActivity" />
-        <activity android:name=".Activities.CommentActivity"></activity>
+        <activity android:name=".Activities.CommentActivity" />
+        <activity android:name=".Activities.NotifyActivity" />
+        <activity
+            android:name=".Activities.PosterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_poster"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>

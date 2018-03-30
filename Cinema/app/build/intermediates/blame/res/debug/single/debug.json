@@ -916,6 +916,10 @@
         "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/res/layout/notification_template_icon_group.xml"
     },
     {
+        "merged": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/res/merged/debug/drawable_watch.png.flat",
+        "source": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/res/drawable/watch.png"
+    },
+    {
         "merged": "/home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },

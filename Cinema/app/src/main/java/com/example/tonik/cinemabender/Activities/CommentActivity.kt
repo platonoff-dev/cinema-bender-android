@@ -3,7 +3,6 @@ package com.example.tonik.cinemabender.Activities
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.TextInputLayout
-import android.util.Log
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -21,14 +20,17 @@ class CommentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_comment)
         listOfComments = findViewById(R.id.commentsView)
-        var fbw = FirebaseWorking()
+        var fbw = FirebaseWorking(this)
         var name = intent.getSerializableExtra("name") as String
         var inputView = findViewById<TextInputLayout>(R.id.inputCommentView)
         var addCommentButton = findViewById<Button>(R.id.addCommentButton)
         generateComments(fbw.getComents(name))
         addCommentButton.setOnClickListener(View.OnClickListener {
             var comment = inputView.editText!!.text.toString()
-            fbw.addComent(name, comment)
+            if (comment != "") {
+                fbw.addComment(name, comment)
+                inputView.editText!!.text.clear()
+            }
         })
         FirebaseFirestore.getInstance().collection("films").document(name).addSnapshotListener(EventListener{
             documentSnapshot: DocumentSnapshot, firebaseFirestoreException: FirebaseFirestoreException? ->
@@ -40,7 +42,7 @@ class CommentActivity : AppCompatActivity() {
             }
         })
     }
-    fun generateComments(comments: String){
+    private fun generateComments(comments: String){
         var lOF = comments.split('~')
         listOfComments.adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lOF)
     }

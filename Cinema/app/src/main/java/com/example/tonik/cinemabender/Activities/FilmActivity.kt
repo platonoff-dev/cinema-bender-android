@@ -27,7 +27,7 @@ class FilmActivity : AppCompatActivity() {
         var data  = filmInfo.split('~')
         nameView.text = data[0] //name
         descriptionView.text = fromHtml(data[1]) //description
-        hallView.text = data[2] //hall
+        hallView.text = data[2] + " зал" //hall
         seanceView.text = data[3] //time
         Picasso.get()
                 .load(data[4])

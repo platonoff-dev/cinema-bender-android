@@ -22,13 +22,13 @@ public final class R {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
     }
     public static final class color {
-        public static final int notification_action_color_filter = 0x7f05004d;
-        public static final int notification_icon_bg_color = 0x7f05004e;
-        public static final int notification_material_background_media_default_color = 0x7f05004f;
-        public static final int primary_text_default_material_dark = 0x7f050054;
-        public static final int ripple_material_light = 0x7f050059;
-        public static final int secondary_text_default_material_dark = 0x7f05005a;
-        public static final int secondary_text_default_material_light = 0x7f05005b;
+        public static final int notification_action_color_filter = 0x7f05004e;
+        public static final int notification_icon_bg_color = 0x7f05004f;
+        public static final int notification_material_background_media_default_color = 0x7f050050;
+        public static final int primary_text_default_material_dark = 0x7f050055;
+        public static final int ripple_material_light = 0x7f05005a;
+        public static final int secondary_text_default_material_dark = 0x7f05005b;
+        public static final int secondary_text_default_material_light = 0x7f05005c;
     }
     public static final class dimen {
         public static final int compat_button_inset_horizontal_material = 0x7f06004d;
@@ -120,21 +120,21 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0a003c;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0c0032;
+        public static final int status_bar_notification_info_overflow = 0x7f0c0034;
     }
     public static final class style {
-        public static final int TextAppearance_Compat_Notification = 0x7f0d0104;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d0105;
-        public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f0d0106;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d0107;
-        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f0d0108;
-        public static final int TextAppearance_Compat_Notification_Media = 0x7f0d0109;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d010a;
-        public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f0d010b;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d010c;
-        public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f0d010d;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d0182;
-        public static final int Widget_Compat_NotificationActionText = 0x7f0d0183;
+        public static final int TextAppearance_Compat_Notification = 0x7f0d0106;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d0107;
+        public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f0d0108;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d0109;
+        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f0d010a;
+        public static final int TextAppearance_Compat_Notification_Media = 0x7f0d010b;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d010c;
+        public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f0d010d;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d010e;
+        public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f0d010f;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d0184;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0d0185;
     }
     public static final class styleable {
         public static final int[] FontFamily = { 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f0300a0, 0x7f0300a1 };

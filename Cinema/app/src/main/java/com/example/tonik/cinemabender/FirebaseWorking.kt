@@ -1,19 +1,28 @@
 package com.example.tonik.cinemabender
 
-import com.google.android.gms.tasks.OnCompleteListener
+import android.content.Context
 import com.google.android.gms.tasks.OnSuccessListener
-import com.google.firebase.firestore.*
-import com.google.firebase.firestore.EventListener
-import java.util.*
-import kotlin.collections.HashMap
+import com.google.firebase.firestore.FirebaseFirestore
 
-class FirebaseWorking{
+class FirebaseWorking(var context: Context){
     var fBase = FirebaseFirestore.getInstance().collection("films")
-    fun addLike(name: String){
+    fun addLike(name: String, context: Context){
         fBase.document(name).get().addOnSuccessListener(OnSuccessListener {
             if (it.exists()){
                 var document = HashMap<String, String>()
-                document.put("likes", (it.getString("likes").toInt()+1).toString())
+                var sharedPref = context.getSharedPreferences("like status", Context.MODE_PRIVATE)
+                var editor = sharedPref.edit()
+                var status = sharedPref.getInt(name, 0)
+                if (status == 0) {
+                    document.put("likes", (it.getString("likes").toInt() + 1).toString())
+                    editor.putInt(name, 1)
+                    editor.apply()
+                }
+                else{
+                    document.put("likes", (it.getString("likes").toInt() - 1).toString())
+                    editor.putInt(name, 0)
+                    editor.apply()
+                }
                 document.put("comments", it.getString("comments"))
                 fBase.document(name).set(document as Map<String, String>)
             }
@@ -22,16 +31,21 @@ class FirebaseWorking{
                 document.put("likes", "0")
                 document.put("comments", "")
                 fBase.document(name).set(document as Map<String, String>)
-                addLike(name)
+                addLike(name, context)
             }
         })
     }
 
-    fun addComent(name: String, comment: String){
+    fun addComment(name: String, comment: String){
         fBase.document(name).get().addOnSuccessListener(OnSuccessListener {
             if (it.exists()){
                 var existComents = it.getString("comments")
-                existComents = "$existComents$comment~"
+                if (existComents == ""){
+                    existComents = comment
+                }
+                else {
+                    existComents = "$comment~$existComents"
+                }
                 var document = HashMap<String, String>()
                 document.put("comments", existComents)
                 document.put("likes", it.getString("likes"))
@@ -42,7 +56,7 @@ class FirebaseWorking{
                 document.put("likes", "0")
                 document.put("coments", "")
                 fBase.document(name).set(document as Map<String, String>)
-                addComent(name, comment)
+                addComment(name, comment)
             }
         })
     }

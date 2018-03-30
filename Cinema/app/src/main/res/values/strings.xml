@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Киноетар им. Горького</string>
+    <string name="app_name">Кинотеатр им. Горького</string>
+
+    <string name="title_activity_poster">PosterActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

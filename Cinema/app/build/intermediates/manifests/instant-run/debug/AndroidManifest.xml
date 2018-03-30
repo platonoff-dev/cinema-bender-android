@@ -41,15 +41,16 @@
         <activity android:name="com.example.tonik.cinemabender.FilmActivity" />
         <activity android:name="com.example.tonik.cinemabender.Activities.OfflineActivity" />
         <activity android:name="com.example.tonik.cinemabender.Activities.CommentActivity" />
+        <activity android:name="com.example.tonik.cinemabender.Activities.NotifyActivity" />
+        <activity
+            android:name="com.example.tonik.cinemabender.Activities.PosterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_poster"
+            android:theme="@style/FullscreenTheme" />
 
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
-
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.tonik.cinemabender.com.squareup.picasso"
-            android:exported="false" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -107,6 +108,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.tonik.cinemabender.com.squareup.picasso"
+            android:exported="false" />
+
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />

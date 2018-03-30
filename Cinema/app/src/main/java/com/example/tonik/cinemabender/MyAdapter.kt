@@ -57,6 +57,6 @@ class FilmAdapter(var data: List<Film>, var context: Context): RecyclerView.Adap
         holder.view!!.setOnClickListener(MyOnClickLIstener(position, data, context))
         holder.filmName.text = data[position].name
         holder.filmDate.text = data[position].seance
-        holder.likeView.setOnClickListener(OnLikeClickListener(position, data))
+        holder.likeView.setOnClickListener(OnLikeClickListener(position, data, context))
     }
 }
