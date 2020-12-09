@@ -3,9 +3,8 @@ package com.example.tonik.cinemabender
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.content.ContextCompat.startActivity
 import android.view.View
-import com.example.tonik.cinemabender.Activities.CommentActivity
+import androidx.core.content.ContextCompat.startActivity
 
 
 class MyOnClickLIstener(var position: Int, var data: List<Film>, var context: Context): View.OnClickListener{
@@ -14,9 +13,9 @@ class MyOnClickLIstener(var position: Int, var data: List<Film>, var context: Co
     }
 
     private fun MyOnCLick(pos: Int){
-        var intent = Intent(context, FilmActivity::class.java)
-        var filmInfo: Bundle = Bundle()
-        var str = data[pos].name+"~"+data[pos].description+"~"+data[pos].hall+"~"+data[pos].seance+"~"+data[pos].imageURL
+        val intent = Intent(context, FilmActivity::class.java)
+        val filmInfo: Bundle = Bundle()
+        val str = data[pos].name+"~"+data[pos].description+"~"+data[pos].hall+"~"+data[pos].seance+"~"+data[pos].imageURL
         intent.putExtra("filmInfo", str)
         startActivity(context, intent, filmInfo)
     }

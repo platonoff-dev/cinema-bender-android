@@ -1,434 +1,491 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-MERGED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.firebase:firebase-firestore:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-12.0.0.aar/ad10df4e3d1af9aed76ef7c6c3689dee/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-core:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/7589e8f53221876c57e585eaa71da68f/AndroidManifest.xml:2:1-6:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tonik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0ad03629165171b7ae2ae9479841fb44/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:17:1-54:12
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/2c3f0cd77f7547df90eb9af3d6201be4/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:17:1-31:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:exifinterface:27.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/6f7a1b97ab548769ea7f197eb6cfa459/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/7f4b5397a31925696cd47d39f52de7bd/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-common-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.0.aar/d4a46193ad97270d788e8d6b7fda6ec4/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/d4eb0eff980a5bf83b3616ea474fae2a/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/98175211cc4d1e061c3662a248cf9378/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/a93f077ef20ed8e84ae016b6faa32f32/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/7cdbea8898daa596432fa0fcbedfab71/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6f30b1cfe796728e60d81a53d742fc2c/constraintlayout-2.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/64ee8dc4c8eb12b448ddf804469508cf/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/2889dc4c63ba68eb502e680ddfbce0c5/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/5974264b89c6cd8f3dc4eceb3a869719/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/794c67071ca063c6aae1d2c55d60ec8a/recyclerview-selection-1.1.0-rc03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/480f37e08d1c0e1e4a2ea5597bf3fb6d/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d9d55881cff7f8f1282a143dae74fcfb/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7a80656f48480ada808f38dfa5e2f1f3/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28af0366a4f99bbf31f999c33d412e36/firebase-analytics-17.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6a50fc52e1853d10e7e36864be500e2c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4d8ff5e5cec2bd9ed401d45a60849632/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4e8a4c0f48eeecdbad1217a32f2e7e46/firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/a3c99eb44f25da6436998b0ef242aaf5/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/9f2c0c87f5ae38fbe45509e1a1a156c8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/14326d15805ae1db36ddc6f2904e564d/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bf097663c52d2ca302e43765898cee22/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dcc232e76e4979349bd4b5677d1dc603/play-services-measurement-base-17.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c28a691df583e1daf363be3c32834e68/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6c53500183e6334c6ac6d8137d31e8a4/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f617cb2b1cfc7b342d775ff18ff96387/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dadcb394454864f71c65098a4b3b846e/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/69f9ced1a52ef63f2d67ccc7b3705a43/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/16e595f9d532f476279eaf07caf20e95/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/34096e98e2e5fdb9f523254dd401757d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4b3946a0628070214988e6e759eda536/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/55581b77d2505149d4d48fbeb4a24ffe/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4fd2cb56a35df22f4ad74ef77298da0e/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ece8f7bbd5a5abab69ce72542f57adf8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bae0963610317aff8749397cbebb1811/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/df229add2bc1247f7ed02d17968e40f3/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c7f05ac83790f13634ea915f5fed984b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/273a329ee31a5cfdd2a0f2b201122791/firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/08ee68a33d34e92fbd60d2c884e15d60/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/b2c9c9ee3618351ff4f371ca994ce87b/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/80124cd122cebdb08de811ddc79cdcec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4a86d8481eed022dd8309069b99ec72c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d5ac93d2c85e8f2f85e1fb486028356e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/487c0e919d46519431b8add71a52d7db/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d0e4d4a95071a46c6aa872165a525c09/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fbd696a2c9627885e391bd0cd1aef704/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fa4db8bd98215d0dc45390b2df91ccce/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c2638544d71ac4f555411b985a252790/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bffe7fa7cc33e423d74086ef7a0daf4d/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/52cd227b3b268734326213b09b6ec4df/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/3adbc47930206f900b73f67b406a45d8/protolite-well-known-types-17.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.28.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28c7092a5ea2099ca79ec215338d0d0f/grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:5:5-79
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:22:5-79
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28c7092a5ea2099ca79ec215338d0d0f/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28c7092a5ea2099ca79ec215338d0d0f/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:23:5-67
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:8:5-31:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-core:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/7589e8f53221876c57e585eaa71da68f/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/7589e8f53221876c57e585eaa71da68f/AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tonik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0ad03629165171b7ae2ae9479841fb44/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tonik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0ad03629165171b7ae2ae9479841fb44/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/2c3f0cd77f7547df90eb9af3d6201be4/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/2c3f0cd77f7547df90eb9af3d6201be4/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:7:5-12:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/7f4b5397a31925696cd47d39f52de7bd/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/7f4b5397a31925696cd47d39f52de7bd/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-common-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.0.aar/d4a46193ad97270d788e8d6b7fda6ec4/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-common-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.0.aar/d4a46193ad97270d788e8d6b7fda6ec4/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/d4eb0eff980a5bf83b3616ea474fae2a/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/d4eb0eff980a5bf83b3616ea474fae2a/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/98175211cc4d1e061c3662a248cf9378/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/98175211cc4d1e061c3662a248cf9378/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/a93f077ef20ed8e84ae016b6faa32f32/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/a93f077ef20ed8e84ae016b6faa32f32/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/7cdbea8898daa596432fa0fcbedfab71/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/7cdbea8898daa596432fa0fcbedfab71/AndroidManifest.xml:5:5-6:19
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:8:5-32:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6f30b1cfe796728e60d81a53d742fc2c/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6f30b1cfe796728e60d81a53d742fc2c/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/64ee8dc4c8eb12b448ddf804469508cf/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/64ee8dc4c8eb12b448ddf804469508cf/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28af0366a4f99bbf31f999c33d412e36/firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28af0366a4f99bbf31f999c33d412e36/firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4d8ff5e5cec2bd9ed401d45a60849632/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4d8ff5e5cec2bd9ed401d45a60849632/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/9f2c0c87f5ae38fbe45509e1a1a156c8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/9f2c0c87f5ae38fbe45509e1a1a156c8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/14326d15805ae1db36ddc6f2904e564d/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/14326d15805ae1db36ddc6f2904e564d/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bf097663c52d2ca302e43765898cee22/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bf097663c52d2ca302e43765898cee22/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dcc232e76e4979349bd4b5677d1dc603/play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dcc232e76e4979349bd4b5677d1dc603/play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c28a691df583e1daf363be3c32834e68/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c28a691df583e1daf363be3c32834e68/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6c53500183e6334c6ac6d8137d31e8a4/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6c53500183e6334c6ac6d8137d31e8a4/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c7f05ac83790f13634ea915f5fed984b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c7f05ac83790f13634ea915f5fed984b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:10:9-36
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:10:9-36
 	android:allowBackup
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.example.tonik.cinema.MainActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:15:9-21:20
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.example.tonik.cinemabender.MainActivity
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:15:19-71
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:16:19-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.tonik.cinemabender.FilmActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:22:9-50
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:23:19-47
 activity#com.example.tonik.cinemabender.Activities.OfflineActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:23:9-64
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:24:9-64
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:23:19-61
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:24:19-61
 activity#com.example.tonik.cinemabender.Activities.CommentActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:24:9-64
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:25:9-64
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:24:19-61
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:25:19-61
 activity#com.example.tonik.cinemabender.Activities.NotifyActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:25:9-63
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:26:9-63
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:25:19-60
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:26:19-60
 activity#com.example.tonik.cinemabender.Activities.PosterActivity
-ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:26:9-30:63
+ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:27:9-31:63
 	android:label
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:29:13-58
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:30:13-58
 	android:configChanges
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:28:13-74
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:29:13-74
 	android:theme
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:30:13-51
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:31:13-51
 	android:name
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:27:13-54
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml:28:13-54
 uses-sdk
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-firestore:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-12.0.0.aar/ad10df4e3d1af9aed76ef7c6c3689dee/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-firestore:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-12.0.0.aar/ad10df4e3d1af9aed76ef7c6c3689dee/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-core:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/7589e8f53221876c57e585eaa71da68f/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/7589e8f53221876c57e585eaa71da68f/AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tonik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0ad03629165171b7ae2ae9479841fb44/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tonik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0ad03629165171b7ae2ae9479841fb44/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/2c3f0cd77f7547df90eb9af3d6201be4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/2c3f0cd77f7547df90eb9af3d6201be4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:21:5-23:54
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:exifinterface:27.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/6f7a1b97ab548769ea7f197eb6cfa459/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/6f7a1b97ab548769ea7f197eb6cfa459/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:23:9-59
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6f30b1cfe796728e60d81a53d742fc2c/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6f30b1cfe796728e60d81a53d742fc2c/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/64ee8dc4c8eb12b448ddf804469508cf/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/64ee8dc4c8eb12b448ddf804469508cf/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/2889dc4c63ba68eb502e680ddfbce0c5/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/2889dc4c63ba68eb502e680ddfbce0c5/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/5974264b89c6cd8f3dc4eceb3a869719/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/5974264b89c6cd8f3dc4eceb3a869719/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/794c67071ca063c6aae1d2c55d60ec8a/recyclerview-selection-1.1.0-rc03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/794c67071ca063c6aae1d2c55d60ec8a/recyclerview-selection-1.1.0-rc03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/480f37e08d1c0e1e4a2ea5597bf3fb6d/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/480f37e08d1c0e1e4a2ea5597bf3fb6d/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d9d55881cff7f8f1282a143dae74fcfb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d9d55881cff7f8f1282a143dae74fcfb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7a80656f48480ada808f38dfa5e2f1f3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7a80656f48480ada808f38dfa5e2f1f3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28af0366a4f99bbf31f999c33d412e36/firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28af0366a4f99bbf31f999c33d412e36/firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6a50fc52e1853d10e7e36864be500e2c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6a50fc52e1853d10e7e36864be500e2c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4d8ff5e5cec2bd9ed401d45a60849632/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4d8ff5e5cec2bd9ed401d45a60849632/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4e8a4c0f48eeecdbad1217a32f2e7e46/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4e8a4c0f48eeecdbad1217a32f2e7e46/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/a3c99eb44f25da6436998b0ef242aaf5/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/a3c99eb44f25da6436998b0ef242aaf5/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/9f2c0c87f5ae38fbe45509e1a1a156c8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/9f2c0c87f5ae38fbe45509e1a1a156c8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/14326d15805ae1db36ddc6f2904e564d/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/14326d15805ae1db36ddc6f2904e564d/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bf097663c52d2ca302e43765898cee22/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bf097663c52d2ca302e43765898cee22/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dcc232e76e4979349bd4b5677d1dc603/play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dcc232e76e4979349bd4b5677d1dc603/play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c28a691df583e1daf363be3c32834e68/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c28a691df583e1daf363be3c32834e68/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6c53500183e6334c6ac6d8137d31e8a4/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6c53500183e6334c6ac6d8137d31e8a4/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f617cb2b1cfc7b342d775ff18ff96387/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f617cb2b1cfc7b342d775ff18ff96387/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dadcb394454864f71c65098a4b3b846e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/dadcb394454864f71c65098a4b3b846e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/69f9ced1a52ef63f2d67ccc7b3705a43/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/69f9ced1a52ef63f2d67ccc7b3705a43/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/16e595f9d532f476279eaf07caf20e95/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/16e595f9d532f476279eaf07caf20e95/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/34096e98e2e5fdb9f523254dd401757d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/34096e98e2e5fdb9f523254dd401757d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4b3946a0628070214988e6e759eda536/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4b3946a0628070214988e6e759eda536/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/55581b77d2505149d4d48fbeb4a24ffe/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/55581b77d2505149d4d48fbeb4a24ffe/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4fd2cb56a35df22f4ad74ef77298da0e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4fd2cb56a35df22f4ad74ef77298da0e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ece8f7bbd5a5abab69ce72542f57adf8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ece8f7bbd5a5abab69ce72542f57adf8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bae0963610317aff8749397cbebb1811/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bae0963610317aff8749397cbebb1811/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/df229add2bc1247f7ed02d17968e40f3/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/df229add2bc1247f7ed02d17968e40f3/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7ff809597227883df09f326ecfe802a4/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c7f05ac83790f13634ea915f5fed984b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c7f05ac83790f13634ea915f5fed984b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/273a329ee31a5cfdd2a0f2b201122791/firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/273a329ee31a5cfdd2a0f2b201122791/firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/08ee68a33d34e92fbd60d2c884e15d60/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/08ee68a33d34e92fbd60d2c884e15d60/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/b2c9c9ee3618351ff4f371ca994ce87b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/b2c9c9ee3618351ff4f371ca994ce87b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/80124cd122cebdb08de811ddc79cdcec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/80124cd122cebdb08de811ddc79cdcec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4a86d8481eed022dd8309069b99ec72c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4a86d8481eed022dd8309069b99ec72c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d5ac93d2c85e8f2f85e1fb486028356e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d5ac93d2c85e8f2f85e1fb486028356e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/487c0e919d46519431b8add71a52d7db/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/487c0e919d46519431b8add71a52d7db/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d0e4d4a95071a46c6aa872165a525c09/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d0e4d4a95071a46c6aa872165a525c09/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fbd696a2c9627885e391bd0cd1aef704/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fbd696a2c9627885e391bd0cd1aef704/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fa4db8bd98215d0dc45390b2df91ccce/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fa4db8bd98215d0dc45390b2df91ccce/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c2638544d71ac4f555411b985a252790/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/c2638544d71ac4f555411b985a252790/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bffe7fa7cc33e423d74086ef7a0daf4d/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/bffe7fa7cc33e423d74086ef7a0daf4d/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:exifinterface:27.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/52cd227b3b268734326213b09b6ec4df/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/52cd227b3b268734326213b09b6ec4df/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/3adbc47930206f900b73f67b406a45d8/protolite-well-known-types-17.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/3adbc47930206f900b73f67b406a45d8/protolite-well-known-types-17.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28c7092a5ea2099ca79ec215338d0d0f/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/28c7092a5ea2099ca79ec215338d0d0f/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		ADDED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:design:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/faafe54e039d898411f221e37e807bf3/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7901d4b1eb04fbc54e37c0ec130872b5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/350b44ae3ab4958bae674cfb6ae38332/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/62850ea4d1d1445b6a0253a9712af7bf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/56a70567466a131bb3af456deca8633f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/083a6c4706a4bd5e06ce835397abdb1c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1f55c87de9ec46a19df72aeb6c6ec31a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e07260f2922f69b618b5d4ee8f384e4a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3f18a5e0b9e74f3fa510e52588399676/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd11603124591a9ead67367b24bbcaa5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f478cf395beebeb71f1e38ce89ebddfb/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2338a36e68ade8824bc6b27831c3524/AndroidManifest.xml:26:9-28:38
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		ADDED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anatoliy/Projects/cinema-bender-android/Cinema/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:15:13-17:85
 	android:value
-		ADDED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:25:13-35
+		ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:17:17-82
 	android:name
-		ADDED from [com.android.support:cardview-v7:26.1.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/a2a731e4f35deddf1caee9815c88a904/AndroidManifest.xml:24:13-51
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:24:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:25:22-65
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:28:9-32:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:30:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:29:13-85
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:33:9-41:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:35:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:36:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:37:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:34:13-100
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:38:13-40:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:39:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:39:25-76
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:43:9-46:40
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:34:9-37:40
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/7c3355604b44a1ba0ca2d9905e688e0a/AndroidManifest.xml:34:9-37:40
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:45:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:44:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:47:9-51:72
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:49:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:50:13-37
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:51:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/938ce2539029fac7db2d0bf168ad3928/AndroidManifest.xml:48:13-87
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:26:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:28:5-30:47
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:30:9-44
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:29:9-63
-permission#com.example.tonik.cinemabender.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:28:5-30:47
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:30:9-44
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:29:9-63
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:32:22-76
-uses-permission#com.example.tonik.cinemabender.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:32:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:35:9-44:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:37:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:38:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:36:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:39:13-43:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.tonik.cinemabender
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:39:13-43:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:40:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:40:25-78
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:42:17-61
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:42:27-58
-category#com.example.tonik.cinemabender
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:42:17-61
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:42:27-58
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:50:9-56:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:52:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:51:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:53:13-55:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:53:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:54:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/4d186ba03d5acef91c98f5017aa5469b/AndroidManifest.xml:54:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:8:9-12:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:11:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:12:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/440bdbef25767ec0b6c838c0b26ff7ca/AndroidManifest.xml:9:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-firestore-ktx:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/d426dad0c60ff016e000cefac2a05fad/firebase-firestore-ktx-21.7.1/AndroidManifest.xml:16:17-126
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/593fc0d9edf8b00816395679e3926e76/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/7aea66f1256efa8f56ab45ef8b1b1369/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/f27cb35995dd2000b86a40086c953f7a/firebase-common-ktx-19.3.1/AndroidManifest.xml:16:17-113
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tonik/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/445540d5c70b6b8d8d5797f4f7555720/AndroidManifest.xml:9:13-64
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:25:9-27:47
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fe8a83905cb5781a76c34776cd2e5fc5/picasso-2.71828/AndroidManifest.xml:9:13-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:27:13-44
+		ADDED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/tonik/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1c206d1da0f6c0769bfee811417a766e/AndroidManifest.xml:26:13-58
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/tonik/programing/AndroidStudioProjects/CinemaBender/Cinema/app/src/main/AndroidManifest.xml:2:1-33:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+		ADDED from [com.google.firebase:firebase-firestore:21.7.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/37088dfa716b070a61cf4f4eccdb083a/firebase-firestore-21.7.1/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/8ef9f47a6564db5c780aaa4f50c634dc/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/4bf9323939eeb1e2863e3f6b103a6959/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.2] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/6cf21ad8cfacfc81701d622553db0feb/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/440715e4280e5d3cced8fe581d960dcc/firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/034c221fac499544ea4b0e274b688d27/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/fab3c89acbb38f7d003b8830234f5243/play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/e6bd950870161de4054a7057f90f041d/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anatoliy/.gradle/caches/transforms-2/files-2.1/ef56e2b2b5ae5abd1395793e0f339057/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

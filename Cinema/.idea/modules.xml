@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Cinema.iml" filepath="$PROJECT_DIR$/Cinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Cinema-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Cinema-app.iml" group="Cinema/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cinema-bender-android-Cinema.iml" filepath="$PROJECT_DIR$/.idea/modules/cinema-bender-android-Cinema.iml" group="Cinema" />
     </modules>
   </component>
 </project>
